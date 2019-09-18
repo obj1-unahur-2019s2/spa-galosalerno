@@ -20,7 +20,8 @@ Tenemos que poder consultar `olivia.gradoDeConcentracion()`.
 
 
 ### Bruno
-De Bruno nos interesan tres cosas: si es feliz o no (digamos que "nace" feliz), si tiene sed (al principio no), y su peso (que arranca en 55 kilos, o sea 55000 gramos). Los eventos que nos interesan son estos:
+De Bruno nos interesan tres cosas: si es feliz o no (digamos que "nace" feliz), si tiene sed (al principio no), y su peso (que arranca en 55 kilos, o sea 55000 gramos). 
+Los eventos que nos interesan son estos:
 - cuando _recibe masajes_, se pone feliz.
 - cuando _se da un baño de vapor_, baja de peso 500 gramos y le da sed.
 - cuando _toma agua_ se le va la sed.
@@ -35,7 +36,8 @@ De Bruno también nos interesa
 
 
 ### Ramiro
-Nos interesa: qué tan contracturado está (según un nivel que es un número, 0 es "nada contracturado", cuanto más alto el número más contracturado está), y si tiene la piel grasosa o no. Las acciones de Ramiro relevantes para este modelo son:
+Nos interesa: qué tan contracturado está (según un nivel que es un número, 0 es "nada contracturado", cuanto más alto el número más contracturado está), y si tiene la piel grasosa o no. 
+Las acciones de Ramiro relevantes para este modelo son:
 - cuando recibe masajes, baja dos puntos su nivel de contractura. <br> OJO nunca puede ser negativo, o sea, si estaba en 1 pasa a 0, si estaba en 0 se queda en 0.
 - cuando se da un baño de vapor, se le va la grasa de la piel.
 - cuando come un big mac, la piel pasa a estar grasosa.
@@ -48,7 +50,8 @@ Finalmente, un `diaDeTrabajo()` de Ramiro consiste en: bajar a la fosa, después
 
 ## El Spa
 
-Agregar al modelo un objeto que represente al Spa. Lo único que esperamos del spa es que entienda el mensaje `atender(persona)`, donde la persona puede ser, p.ej., cualquiera de las tres definidas más arriba.
+Agregar al modelo un objeto que represente al Spa. Lo único que esperamos del spa es que entienda el mensaje `atender(persona)`, donde la persona puede ser, p.ej., 
+cualquiera de las tres definidas más arriba.
 
 Cuando el spa atiende una persona pasan dos cosas: la persona recibe masajes, y se da un baño de vapor.
 
@@ -57,7 +60,8 @@ Probar haciendo que el spa atienda a Ramiro, y verificando que después de la vi
 
 ## Atender a todo el mundo
 
-Probar haciendo que el spa atienda a Olivia y a Bruno. Hay uno con el que no va a andar ¿por qué? Agregar lo que haga falta para que el spa pueda atender a las tres personas definidas. Las acciones que no están definidas, y que tengan que definirse, no tienen ningún efecto sobre la persona. 
+Probar haciendo que el spa atienda a Olivia y a Bruno. Hay uno con el que no va a andar ¿por qué? Agregar lo que haga falta para que el spa pueda atender a las tres personas definidas. 
+Las acciones que no están definidas, y que tengan que definirse, no tienen ningún efecto sobre la persona. 
 
 
 
