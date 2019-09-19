@@ -1,0 +1,24 @@
+
+test "Spa" {
+
+// TENGO QUE APRENDER A USAR EL TEST, PERO LO PROBE POR CONSOLA Y ACA ABAJO DEJO LOS RESULTADOS.
+>>> spa.atender(ramiro)
+>>> ramiro.nivelDeContractura()
+0
+>>> ramiro.jugarAlPaddle()
+>>> ramiro.nivelDeContractura()
+3
+>>> spa.atender(ramiro)
+>>> ramiro.nivelDeContractura()
+1
+>>> ramiro.pielGrasosa()
+false
+>>> ramiro.comerseUnBigMac()
+>>> ramiro.pielGrasosa()
+true
+>>> spa.atender(ramiro)
+>>> ramiro.pielGrasosa()
+false
+>>> 
+
+}
